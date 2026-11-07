@@ -1,0 +1,186 @@
+[
+  {
+    "id": "phishing",
+    "title": "Phishing Attacks",
+    "category": "Online Safety",
+    "icon": "mail-unread-outline",
+    "color": "#E8F0FF",
+    "accent": "#4C79CE",
+    "level": "Beginner",
+    "short": "Learn how to spot fake emails, links and urgent messages.",
+    "description": "Phishing is when someone pretends to be a trusted person or company to trick you into sharing information or opening a dangerous link.",
+    "example": "You receive a message saying your university email will be blocked in one hour unless you enter your password on a new website.",
+    "warningSigns": [
+      "A message creates panic or pressure to act immediately.",
+      "The sender address or website spelling looks unusual.",
+      "A link asks for a password or personal information unexpectedly."
+    ],
+    "tips": [
+      "Open the official website yourself rather than using the message link.",
+      "Check the sender and website address carefully.",
+      "Report suspicious messages to your university IT staff."
+    ],
+    "remember": "Pause and check before you click."
+  },
+  {
+    "id": "passwords",
+    "title": "Password Safety",
+    "category": "Account Safety",
+    "icon": "key-outline",
+    "color": "#F1EBFF",
+    "accent": "#7964D7",
+    "level": "Beginner",
+    "short": "Create stronger passwords and protect your accounts.",
+    "description": "Strong, unique passwords make it harder for attackers to access your accounts. Multi-factor authentication provides another layer of protection.",
+    "example": "A student uses the same password for social media and the university portal. One leaked password could put both accounts at risk.",
+    "warningSigns": [
+      "You reuse the same password across several websites.",
+      "You share a password with friends or classmates.",
+      "Your account has no additional sign-in verification."
+    ],
+    "tips": [
+      "Use a different long password or passphrase for each account.",
+      "Use a trusted password manager if available.",
+      "Enable multi-factor authentication when offered."
+    ],
+    "remember": "One account, one unique password."
+  },
+  {
+    "id": "malware",
+    "title": "Malware & Viruses",
+    "category": "Device Safety",
+    "icon": "bug-outline",
+    "color": "#FFF1E5",
+    "accent": "#E88B3D",
+    "level": "Beginner",
+    "short": "Avoid harmful apps, files and unexpected downloads.",
+    "description": "Malware is harmful software that can steal information, damage files or disrupt a device. It may arrive through unsafe downloads or suspicious attachments.",
+    "example": "A free software installer from an unknown website asks you to disable antivirus protection before running it.",
+    "warningSigns": [
+      "Pop-up messages demand you install unknown software.",
+      "A download comes from an untrusted website.",
+      "Your device suddenly shows unusual behavior after an installation."
+    ],
+    "tips": [
+      "Download apps from official or trusted sources.",
+      "Keep your operating system and applications updated.",
+      "Scan suspicious files and do not disable security tools casually."
+    ],
+    "remember": "Think carefully before installing unknown files."
+  },
+  {
+    "id": "browsing",
+    "title": "Safe Web Browsing",
+    "category": "Online Safety",
+    "icon": "globe-outline",
+    "color": "#E4F8F3",
+    "accent": "#18A68F",
+    "level": "Beginner",
+    "short": "Browse carefully and recognize misleading websites.",
+    "description": "Safe browsing means checking websites, links and downloads so that you avoid scams and protect your personal data.",
+    "example": "A shopping page has a nearly correct brand name and asks for a bank card even though the offer looks too good to be true.",
+    "warningSigns": [
+      "The website address looks like a misspelled brand.",
+      "A site asks for unrelated private details.",
+      "An offer seems unrealistic or pushes an immediate payment."
+    ],
+    "tips": [
+      "Type the official website address when possible.",
+      "Look at the full website address, not just the page design.",
+      "Remember that HTTPS alone does not prove a site is trustworthy."
+    ],
+    "remember": "A professional-looking website can still be a scam."
+  },
+  {
+    "id": "social",
+    "title": "Social Engineering",
+    "category": "Online Safety",
+    "icon": "people-outline",
+    "color": "#FFEAF0",
+    "accent": "#DA6F8A",
+    "level": "Beginner",
+    "short": "Recognize tricks that use trust, fear or curiosity.",
+    "description": "Social engineering uses human emotions and trust to persuade people to reveal information or perform unsafe actions.",
+    "example": "A caller claims to be from campus IT and asks you to read out the sign-in code that was sent to your phone.",
+    "warningSigns": [
+      "Someone demands a one-time verification code.",
+      "A caller uses authority or urgency to pressure you.",
+      "A stranger asks you to ignore normal verification steps."
+    ],
+    "tips": [
+      "Verify unexpected requests using a trusted contact method.",
+      "Never share one-time sign-in codes.",
+      "Ask university staff when you are unsure about a request."
+    ],
+    "remember": "Verify the person, not just the story."
+  },
+  {
+    "id": "devices",
+    "title": "Device Security",
+    "category": "Device Safety",
+    "icon": "phone-portrait-outline",
+    "color": "#E5F0FF",
+    "accent": "#4B83D4",
+    "level": "Beginner",
+    "short": "Protect laptops and phones used for university work.",
+    "description": "Device security includes keeping software updated, locking screens and protecting files from unwanted access.",
+    "example": "You leave your unlocked laptop in the library while you go to get lunch.",
+    "warningSigns": [
+      "Your device does not require a screen lock.",
+      "You often postpone important security updates.",
+      "Sensitive files are stored without a backup."
+    ],
+    "tips": [
+      "Use a PIN, password or biometric screen lock.",
+      "Install updates from trusted system settings.",
+      "Back up important study files regularly."
+    ],
+    "remember": "Lock it before you leave it."
+  },
+  {
+    "id": "privacy",
+    "title": "Data Privacy",
+    "category": "Privacy",
+    "icon": "shield-checkmark-outline",
+    "color": "#EEF0FF",
+    "accent": "#7663D0",
+    "level": "Beginner",
+    "short": "Know what personal data you share with apps.",
+    "description": "Data privacy means understanding and controlling how your personal information is collected, used and shared.",
+    "example": "A simple calculator app asks for access to your contacts and location even though it does not need them to work.",
+    "warningSigns": [
+      "An app requests permissions unrelated to its purpose.",
+      "A form asks for sensitive details without explaining why.",
+      "You post a student ID number or other private information publicly."
+    ],
+    "tips": [
+      "Review permissions before granting access.",
+      "Share only the information that is needed.",
+      "Check privacy settings on social media and apps."
+    ],
+    "remember": "Share less, protect more."
+  },
+  {
+    "id": "wifi",
+    "title": "Public Wi-Fi Safety",
+    "category": "Online Safety",
+    "icon": "wifi-outline",
+    "color": "#E3F8FA",
+    "accent": "#16A6B8",
+    "level": "Beginner",
+    "short": "Stay careful when using shared networks.",
+    "description": "Public Wi-Fi can be convenient but unfamiliar networks may expose you to fake hotspots or insecure connections.",
+    "example": "At a café, you find two similarly named networks and cannot tell which one belongs to the café.",
+    "warningSigns": [
+      "A network name imitates a familiar place.",
+      "A login page asks for unnecessary private details.",
+      "Your device joins unfamiliar networks automatically."
+    ],
+    "tips": [
+      "Ask staff for the correct Wi-Fi name when unsure.",
+      "Avoid sensitive activity on unknown or suspicious networks.",
+      "Turn off automatic joining of unfamiliar networks."
+    ],
+    "remember": "Confirm the network before connecting."
+  }
+]

@@ -1,0 +1,314 @@
+[
+  {
+    "id": "p1",
+    "topicId": "phishing",
+    "question": "Which sign is most likely to indicate a phishing email?",
+    "options": [
+      "It uses your first name",
+      "It asks you to act urgently through an unfamiliar link",
+      "It contains a normal class timetable",
+      "It has a university logo"
+    ],
+    "answer": 1,
+    "explanation": "Urgency combined with an unfamiliar link is a common phishing warning sign."
+  },
+  {
+    "id": "p2",
+    "topicId": "phishing",
+    "question": "What should you do when an unexpected email asks for your password?",
+    "options": [
+      "Reply with the password",
+      "Click the link immediately",
+      "Open the official website separately",
+      "Forward it to every classmate"
+    ],
+    "answer": 2,
+    "explanation": "Going to the official website independently avoids trusting a suspicious message link."
+  },
+  {
+    "id": "p3",
+    "topicId": "phishing",
+    "question": "You receive a suspicious message from someone claiming to be campus IT. What is safest?",
+    "options": [
+      "Verify it with the IT desk using a known contact",
+      "Send your student details quickly",
+      "Download the attachment to check",
+      "Ignore all future university emails"
+    ],
+    "answer": 0,
+    "explanation": "Checking with the official IT desk helps confirm whether the request is genuine."
+  },
+  {
+    "id": "pw1",
+    "topicId": "passwords",
+    "question": "Which password practice is safer?",
+    "options": [
+      "Using your birth year on every account",
+      "Using a long and unique passphrase for each account",
+      "Sharing a password with a friend",
+      "Keeping your password in a public post"
+    ],
+    "answer": 1,
+    "explanation": "Long, unique passphrases reduce the risk of one leaked password exposing many accounts."
+  },
+  {
+    "id": "pw2",
+    "topicId": "passwords",
+    "question": "Why is multi-factor authentication useful?",
+    "options": [
+      "It removes the need for security updates",
+      "It makes every website safe",
+      "It adds another check besides the password",
+      "It guarantees no account can ever be hacked"
+    ],
+    "answer": 2,
+    "explanation": "An additional sign-in factor helps protect an account even when a password is exposed."
+  },
+  {
+    "id": "pw3",
+    "topicId": "passwords",
+    "question": "What is a good way to manage many passwords?",
+    "options": [
+      "Reuse one simple password",
+      "Store them in public notes",
+      "Ask friends to remember them",
+      "Use a trusted password manager"
+    ],
+    "answer": 3,
+    "explanation": "A trusted password manager can help create and store different strong passwords."
+  },
+  {
+    "id": "m1",
+    "topicId": "malware",
+    "question": "Where is it generally safest to download a computer application?",
+    "options": [
+      "A random pop-up advertisement",
+      "The official developer website or trusted store",
+      "An unknown file-sharing message",
+      "A link sent by an unfamiliar account"
+    ],
+    "answer": 1,
+    "explanation": "Official sources or trusted stores reduce the risk of modified, harmful installers."
+  },
+  {
+    "id": "m2",
+    "topicId": "malware",
+    "question": "What should you do if an installer asks you to disable security protection for no clear reason?",
+    "options": [
+      "Stop and verify the installer",
+      "Disable protection and continue",
+      "Share the installer immediately",
+      "Ignore future warnings"
+    ],
+    "answer": 0,
+    "explanation": "Unexpected requests to turn off protection are a warning sign and should be checked."
+  },
+  {
+    "id": "m3",
+    "topicId": "malware",
+    "question": "Which habit helps reduce malware risk?",
+    "options": [
+      "Opening every attachment",
+      "Never installing updates",
+      "Keeping software and security tools updated",
+      "Using unknown USB drives without checking"
+    ],
+    "answer": 2,
+    "explanation": "Security updates fix known weaknesses attackers may exploit."
+  },
+  {
+    "id": "b1",
+    "topicId": "browsing",
+    "question": "What does HTTPS in a website address mainly indicate?",
+    "options": [
+      "The website owner is always honest",
+      "The connection is encrypted",
+      "The product is genuine",
+      "The site has no advertisements"
+    ],
+    "answer": 1,
+    "explanation": "HTTPS encrypts the connection, but it does not prove that the website or seller is trustworthy."
+  },
+  {
+    "id": "b2",
+    "topicId": "browsing",
+    "question": "A website has a brand name with one letter changed. What should you do?",
+    "options": [
+      "Enter payment details",
+      "Download its app",
+      "Trust it if it has a logo",
+      "Verify the correct address independently"
+    ],
+    "answer": 3,
+    "explanation": "Misspelled addresses may be used to imitate real websites."
+  },
+  {
+    "id": "b3",
+    "topicId": "browsing",
+    "question": "Which online offer should make you pause and investigate?",
+    "options": [
+      "A normal course notice",
+      "A regular library page",
+      "A deal that sounds unrealistically cheap and demands immediate payment",
+      "A known university contact page"
+    ],
+    "answer": 2,
+    "explanation": "Unrealistic offers with pressure to pay are common signs of online scams."
+  },
+  {
+    "id": "s1",
+    "topicId": "social",
+    "question": "Someone calls and asks you to read out a one-time sign-in code. What should you do?",
+    "options": [
+      "Give it if they sound official",
+      "Never share the code and verify the caller independently",
+      "Post it in your class group",
+      "Give only the last digits"
+    ],
+    "answer": 1,
+    "explanation": "One-time codes are security credentials; legitimate staff should not need you to read them aloud."
+  },
+  {
+    "id": "s2",
+    "topicId": "social",
+    "question": "Social engineering attacks mainly exploit what?",
+    "options": [
+      "Only computer hardware",
+      "Only slow internet",
+      "Human trust and emotions",
+      "Screen brightness"
+    ],
+    "answer": 2,
+    "explanation": "Social engineering manipulates people through trust, fear, authority or curiosity."
+  },
+  {
+    "id": "s3",
+    "topicId": "social",
+    "question": "A stranger says they are an administrator and needs your login now. What is safest?",
+    "options": [
+      "Verify the request through an official channel",
+      "Hand over your login immediately",
+      "Turn off notifications",
+      "Send your friend's login instead"
+    ],
+    "answer": 0,
+    "explanation": "Using a known contact method is safer than trusting an unexpected claim of authority."
+  },
+  {
+    "id": "d1",
+    "topicId": "devices",
+    "question": "What should you do before leaving your laptop at a shared study space?",
+    "options": [
+      "Leave it unlocked",
+      "Turn the screen brightness down",
+      "Lock the screen",
+      "Open more tabs"
+    ],
+    "answer": 2,
+    "explanation": "A screen lock helps prevent casual unauthorized access while you are away."
+  },
+  {
+    "id": "d2",
+    "topicId": "devices",
+    "question": "Why should you install operating system security updates?",
+    "options": [
+      "They always speed up games",
+      "They can fix known security problems",
+      "They remove all storage limits",
+      "They make passwords unnecessary"
+    ],
+    "answer": 1,
+    "explanation": "Updates can patch vulnerabilities that attackers might use."
+  },
+  {
+    "id": "d3",
+    "topicId": "devices",
+    "question": "Which habit helps protect study files?",
+    "options": [
+      "Keeping no copies anywhere",
+      "Saving only on one USB drive",
+      "Sharing every file publicly",
+      "Making regular backups"
+    ],
+    "answer": 3,
+    "explanation": "Backups help recover important work after device loss or damage."
+  },
+  {
+    "id": "pr1",
+    "topicId": "privacy",
+    "question": "A flashlight app requests access to your contact list. What is the best response?",
+    "options": [
+      "Review whether the permission is necessary",
+      "Allow every permission",
+      "Share contacts on social media",
+      "Disable all phone security"
+    ],
+    "answer": 0,
+    "explanation": "Apps should only receive permissions that are appropriate for their functions."
+  },
+  {
+    "id": "pr2",
+    "topicId": "privacy",
+    "question": "Which piece of information is better kept out of public posts?",
+    "options": [
+      "A general hobby",
+      "A favorite color",
+      "Your account recovery codes",
+      "A public event time"
+    ],
+    "answer": 2,
+    "explanation": "Recovery codes may allow someone to access an account and should remain private."
+  },
+  {
+    "id": "pr3",
+    "topicId": "privacy",
+    "question": "What is a sensible privacy habit when joining a new app?",
+    "options": [
+      "Accept every permission instantly",
+      "Read the permission requests and privacy options",
+      "Post your password for support",
+      "Use a shared account for everything"
+    ],
+    "answer": 1,
+    "explanation": "Reviewing permissions lets you decide what information to share."
+  },
+  {
+    "id": "w1",
+    "topicId": "wifi",
+    "question": "You see two similarly named café Wi-Fi networks. What should you do?",
+    "options": [
+      "Choose the one with the strongest signal",
+      "Ask the staff which network is correct",
+      "Connect to both at once",
+      "Share your password with the hotspot"
+    ],
+    "answer": 1,
+    "explanation": "Confirming the actual network name can help avoid fake hotspots."
+  },
+  {
+    "id": "w2",
+    "topicId": "wifi",
+    "question": "Which setting is safer for unfamiliar public Wi-Fi networks?",
+    "options": [
+      "Automatically join any network",
+      "Turn off your screen lock",
+      "Avoid auto-joining unknown networks",
+      "Disable every app update permanently"
+    ],
+    "answer": 2,
+    "explanation": "Stopping automatic connections reduces accidental connections to suspicious hotspots."
+  },
+  {
+    "id": "w3",
+    "topicId": "wifi",
+    "question": "What should you avoid on a suspicious public Wi-Fi network?",
+    "options": [
+      "Checking the time offline",
+      "Reading a downloaded PDF",
+      "Viewing saved photos",
+      "Entering sensitive account or payment details"
+    ],
+    "answer": 3,
+    "explanation": "Sensitive details should not be entered on networks you cannot trust."
+  }
+]
