@@ -8,6 +8,27 @@ import topics from '../../data/topics.json';
 import questions from '../../data/questions.json';
 import { Colors } from '../../constants/Colors';
 
+const securityTips = [
+  'Never share your password or one-time login code with anyone.',
+  'Enable two-factor authentication to protect your accounts.',
+  'Check website links carefully before entering personal information.',
+  'Keep your phone, computer, and applications updated.',
+  'Avoid opening suspicious attachments from unknown senders.',
+  'Use strong, unique passwords for different accounts.',
+  'Back up important files regularly to prevent data loss.',
+];
+
+const getDailyTip = () => {
+  const today = new Date();
+  const startOfYear = new Date(today.getFullYear(), 0, 1);
+  const dayNumber = Math.floor(
+    (Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()) -
+      Date.UTC(startOfYear.getFullYear(), 0, 1)) / 86400000
+  );
+
+  return securityTips[dayNumber % securityTips.length];
+};
+
 export default function Home() {
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -86,8 +107,8 @@ export default function Home() {
         <View style={styles.tipBox}>
           <Ionicons name="bulb-outline" size={25} color="#D28D31" />
           <View style={styles.tipContent}>
-            <Text style={styles.tipTitle}>Safety reminder</Text>
-            <Text style={styles.tipText}>Never share your password or one-time login code, even with someone who claims to be IT support.</Text>
+            <Text style={styles.tipTitle}>Cybersecurity Tip of the Day</Text>
+            <Text style={styles.tipText}>{getDailyTip()}</Text>
           </View>
         </View>
       </ScrollView>
