@@ -6,6 +6,18 @@ import { router, useLocalSearchParams } from 'expo-router';
 import topics from '../data/topics.json';
 import { Colors } from '../constants/Colors';
 
+const getAwarenessLevel = (percentage) => {
+  if (percentage >= 80) {
+    return 'Cyber Defender';
+  }
+
+  if (percentage >= 50) {
+    return 'Security Learner';
+  }
+
+  return 'Cyber Beginner';
+};
+
 export default function Results() {
   // Values are passed from the Quiz page through Expo Router.
   const { score, total, topicId } = useLocalSearchParams();
@@ -61,7 +73,19 @@ export default function Results() {
             />
           </View>
           <Text style={styles.heading}>{message}</Text>
-          <Text style={styles.message}>{detail}</Text>
+
+<View style={styles.awarenessBadge}>
+  <Ionicons
+    name="shield-checkmark-outline"
+    size={18}
+    color="#82E0D4"
+  />
+  <Text style={styles.awarenessText}>
+    {getAwarenessLevel(percent)}
+  </Text>
+</View>
+
+<Text style={styles.message}>{detail}</Text>
           {topic && <Text style={styles.lessonLabel}>{topic.title} • Topic quiz</Text>}
         </View>
 
@@ -144,4 +168,21 @@ const styles = StyleSheet.create({
   secondaryButton: { flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 10, padding: 15 },
   secondaryText: { color: Colors.teal, fontWeight: '900', fontSize: 13 },
   empty: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 16, padding: 25 },
+  awarenessBadge: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: 8,
+  backgroundColor: '#2A4260',
+  paddingHorizontal: 16,
+  paddingVertical: 10,
+  borderRadius: 20,
+  marginBottom: 12,
+},
+
+awarenessText: {
+  color: '#82E0D4',
+  fontSize: 14,
+  fontWeight: '800',
+},
 });

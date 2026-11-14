@@ -45,17 +45,22 @@ export default function Quiz() {
   }
 
   function nextQuestion() {
-    if (!isAnswered) return;
-    if (currentIndex === quizQuestions.length - 1) {
-      router.replace({
-        pathname: '/results',
-        params: { score: String(score), total: String(quizQuestions.length), topicId: topic ? topic.id : '' },
-      });
-    } else {
-      setCurrentIndex(currentIndex + 1);
-      setSelectedAnswer(null);
-    }
+  if (!isAnswered) return;
+
+  if (currentIndex === quizQuestions.length - 1) {
+    router.push({
+      pathname: '/results',
+      params: {
+        score: String(score),
+        total: String(quizQuestions.length),
+        topicId: topic ? String(topic.id) : '',
+      },
+    });
+  } else {
+    setCurrentIndex(currentIndex + 1);
+    setSelectedAnswer(null);
   }
+}
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -150,9 +155,16 @@ export default function Quiz() {
           </Text>
           <Ionicons name="arrow-forward" size={19} color={Colors.white} />
         </Pressable>
-        <Pressable style={styles.exitButton} onPress={() => router.replace('/(tabs)/topics')}>
-          <Text style={styles.exitText}>Exit quiz and browse topics</Text>
-        </Pressable>
+        {currentIndex < quizQuestions.length - 1 && (
+  <Pressable
+    style={styles.exitButton}
+    onPress={() => router.replace('/(tabs)/topics')}
+  >
+    <Text style={styles.exitText}>
+      Exit quiz and browse topics
+    </Text>
+  </Pressable>
+)}
       </ScrollView>
     </SafeAreaView>
   );
